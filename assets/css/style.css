@@ -15,12 +15,12 @@ body {
 }
 
 a {
-  color: #47b2e4;
+  color: #F17300;
   text-decoration: none;
 }
 
 a:hover {
-  color: #73c5eb;
+  color: #d36600;
   text-decoration: none;
 }
 
@@ -44,7 +44,7 @@ h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #37517e;
+  background: #3E7CB1;
 }
 
 #preloader:before {
@@ -52,7 +52,7 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #37517e;
+  border: 6px solid #3E7CB1;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -81,7 +81,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #47b2e4;
+  background: #F17300;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -115,7 +115,7 @@ h6 {
 
 #header.header-scrolled,
 #header.header-inner-pages {
-  background: rgba(40, 58, 90, 0.9);
+  background: rgba(255, 131, 29, 0.9);
 }
 
 #header .logo {
@@ -182,7 +182,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #47b2e4;
+  color: #F17300;
 }
 
 .navbar .getstarted,
@@ -192,14 +192,14 @@ h6 {
   border-radius: 50px;
   color: #fff;
   font-size: 14px;
-  border: 2px solid #47b2e4;
+  border: 2px solid #F17300;
   font-weight: 600;
 }
 
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
   color: #fff;
-  background: #31a9e1;
+  background: #F17300;
 }
 
 .navbar .dropdown ul {
@@ -237,7 +237,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #47b2e4;
+  color: #F17300;
 }
 
 .navbar .dropdown:hover>ul {
@@ -331,19 +331,19 @@ h6 {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #37517e;
+  color: #3E7CB1;
 }
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #47b2e4;
+  color: #F17300;
 }
 
 .navbar-mobile .getstarted,
 .navbar-mobile .getstarted:focus {
   margin: 15px;
-  color: #37517e;
+  color: #3E7CB1;
 }
 
 .navbar-mobile .dropdown ul {
@@ -373,7 +373,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #47b2e4;
+  color: #F17300;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -387,7 +387,7 @@ h6 {
 #hero {
   width: 100%;
   height: 80vh;
-  background: #37517e;
+  background: #3E7CB1;
 }
 
 #hero .container {
@@ -419,11 +419,11 @@ h6 {
   transition: 0.5s;
   margin: 10px 0 0 0;
   color: #fff;
-  background: #47b2e4;
+  background: #F17300;
 }
 
 #hero .btn-get-started:hover {
-  background: #209dd8;
+  background: #d36600;
 }
 
 #hero .btn-watch-video {
@@ -445,7 +445,7 @@ h6 {
 }
 
 #hero .btn-watch-video:hover i {
-  color: #47b2e4;
+  color: #F17300;
 }
 
 #hero .animated {
@@ -533,7 +533,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #37517e;
+  color: #3E7CB1;
 }
 
 .section-title h2::before {
@@ -553,7 +553,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #47b2e4;
+  background: #F17300;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -616,7 +616,7 @@ section {
   left: 0;
   top: 2px;
   font-size: 20px;
-  color: #47b2e4;
+  color: #F17300;
   line-height: 1;
 }
 
@@ -656,7 +656,7 @@ section {
 .why-us .content h3 {
   font-weight: 400;
   font-size: 34px;
-  color: #37517e;
+  color: #3E7CB1;
 }
 
 .why-us .content h4 {
@@ -781,7 +781,7 @@ section {
 .skills .content h3 {
   font-weight: 700;
   font-size: 32px;
-  color: #37517e;
+  color: #3E7CB1;
   font-family: "Poppins", sans-serif;
 }
 
@@ -818,7 +818,7 @@ section {
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #37517e;
+  color: #3E7CB1;
 }
 
 .skills .progress .skill .val {
@@ -865,7 +865,7 @@ section {
 }
 
 .services .icon-box h4 a {
-  color: #37517e;
+  color: #3E7CB1;
   transition: ease-in-out 0.3s;
 }
 
@@ -1110,16 +1110,15 @@ section {
   overflow: hidden;
   width: 180px;
   border-radius: 50%;
-  border: 6px solid #0F172A;
-  background: #0F172A;
-  margin-right: 25px;
+  border: 6px solid #F17300;
+  margin-right: 35px;
 }
 
 .team .member h4 {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 20px;
-  color: #37517e;
+  color: #3E7CB1;
 }
 
 .team .member span {
@@ -1165,7 +1164,7 @@ section {
 }
 
 .team .member .social a i {
-  color: #37517e;
+  color: #3E7CB1;
   font-size: 16px;
   margin: 0 2px;
 }
@@ -1202,12 +1201,12 @@ section {
   font-weight: 500;
   margin-bottom: 15px;
   font-size: 20px;
-  color: #37517e;
+  color: #3E7CB1;
 }
 
 .pricing h4 {
   font-size: 48px;
-  color: #37517e;
+  color: #3E7CB1;
   font-weight: 400;
   font-family: "Jost", sans-serif;
   margin-bottom: 25px;
@@ -1369,7 +1368,7 @@ section {
 }
 
 .faq .faq-list a.collapsed {
-  color: #37517e;
+  color: #3E7CB1;
   transition: 0.3s;
 }
 
@@ -1422,7 +1421,7 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #37517e;
+  color: #3E7CB1;
 }
 
 .contact .info p {
@@ -1600,7 +1599,7 @@ section {
 .breadcrumbs h2 {
   font-size: 28px;
   font-weight: 600;
-  color: #37517e;
+  color: #3E7CB1;
 }
 
 .breadcrumbs ol {
@@ -1628,7 +1627,7 @@ section {
 --------------------------------------------------------------*/
 #footer {
   font-size: 14px;
-  background: #37517e;
+  background: #3E7CB1;
 }
 
 #footer .footer-newsletter {
@@ -1645,7 +1644,7 @@ section {
   padding: 0;
   line-height: 1;
   font-weight: 600;
-  color: #37517e;
+  color: #3E7CB1;
 }
 
 #footer .footer-newsletter form {
@@ -1700,7 +1699,7 @@ section {
   line-height: 1;
   text-transform: uppercase;
   font-weight: 600;
-  color: #37517e;
+  color: #3E7CB1;
 }
 
 #footer .footer-top .footer-contact p {
@@ -1714,7 +1713,7 @@ section {
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #37517e;
+  color: #3E7CB1;
   position: relative;
   padding-bottom: 12px;
 }
