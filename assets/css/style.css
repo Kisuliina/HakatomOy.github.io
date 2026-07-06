@@ -182,7 +182,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #F17300;
+  color: #90daff;
 }
 
 .navbar .getstarted,
@@ -553,13 +553,10 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #F17300;
+  background: #6bc1e9;
   bottom: 0;
-  left: calc(50% - 20px);
-}
-
-.section-title p {
-  margin-bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 /*--------------------------------------------------------------
@@ -1110,7 +1107,7 @@ section {
   overflow: hidden;
   width: 180px;
   border-radius: 50%;
-  border: 6px solid #F17300;
+  border: 6px solid #47b2e4;
   margin-right: 35px;
 }
 
@@ -1773,7 +1770,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #209dd8;
+  background: #3fa5e4;
   color: #fff;
   text-decoration: none;
 }
